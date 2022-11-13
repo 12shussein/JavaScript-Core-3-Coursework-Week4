@@ -4,6 +4,16 @@ test("remove vowels from all words in array", function () {
   // Arrange
   // Act
   // Assert
+  expect(removeVowelsFromWords(["Irina", "Etza", "Daniel"])).toEqual([
+    "rn",
+    "tz",
+    "Dnl",
+  ]);
+  expect(removeVowelsFromWords(["Code", "Your", "Future"])).toEqual([
+    "Cd",
+    "Yr",
+    "Ftr",
+  ]);
 });
 
 // example
